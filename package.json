@@ -1,5 +1,5 @@
 {
-  "name": "bluetooth-hci-socket",
+  "name": "@rfcode/rfc-bluetooth-hci-socket",
   "version": "0.5.2",
   "description": "Bluetooth HCI socket binding for Node.js",
   "main": "index.js",
@@ -34,7 +34,7 @@
     "node-pre-gyp": "0.6.x"
   },
   "optionalDependencies": {
-    "usb": "^1.1.0"
+    "@rfcode/rfc-usb": "^1.2.0"
   },
   "devDependencies": {
     "jshint": "^2.8.0"
